@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/text_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваше число это 50?"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/button_higher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Больше"/>
+
+    <Button
+        android:id="@+id/button_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Меньше"/>
+
+    <Button
+        android:id="@+id/button_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Угадал"/>
+
+</LinearLayout>
